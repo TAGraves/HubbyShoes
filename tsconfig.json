@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./src/compiled",
+    "jsx": "React",
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "typings/browser",
+    "typings/browser.d.ts"
+  ]
+}

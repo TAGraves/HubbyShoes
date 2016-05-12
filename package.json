@@ -1,0 +1,39 @@
+{
+  "name": "hubbyshoes",
+  "version": "0.0.1",
+  "description": "A simple consumer of the GitHub Issues API",
+  "main": "src/index.ts",
+  "dependencies": {
+    "browserify": "^13.0.1",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "jsdoc": "^3.4.0",
+    "mocha": "^2.4.5",
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2",
+    "tslint": "^3.10.0",
+    "tslint-microsoft-contrib": "^2.0.3",
+    "typescript": "^1.8.10",
+    "watchify": "^3.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha",
+    "build": "browserify src/compiled/index.js -o dist/js/app.js",
+    "watch": "watchify src/compiled/index.js -o dist/js/app.js --debug --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TAGraves/HubbyShoes.git"
+  },
+  "keywords": [
+    "Github",
+    "Issues"
+  ],
+  "author": "Tommy Graves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TAGraves/HubbyShoes/issues"
+  },
+  "homepage": "https://github.com/TAGraves/HubbyShoes#readme"
+}
